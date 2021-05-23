@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    padding-top: 40px;
+    margin: 0;
+    min-width: 350px;
+  }
+  
+  
+  /*header css */
+  .header {
+    background: #333;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .header h1 {
+    text-align: center;
+    padding-top: 0px;
+    margin: 10px auto;
+    font-size: 80px;
+    color: white;
+    font-family: "Dancing Script", cursive;
+  }
+
+  .header h3 {
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0;
+    font-size: 40px;
+    color: white;
+    font-family: "Dancing Script", cursive;
+  }
+
+  .navbar li a {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+  
+
+  
+  .navbar li {
+    display: inline-block;
+  }
+  
+  .navbar ul {
+    z-index: 500;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 14px;
+    background-color: #333;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+/*body css */
+
+.sizzle-container {
+    background-image: linear-gradient(#8c8c8c, #fff);
+    margin:0 auto;
+}
+.sizzle {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.intro-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    margin: 0px auto;
+    padding: 30px 0;
+    background-image: linear-gradient(#fff, #8c8c8c);
+}
+
+.headshot img {
+    padding-top: 30px;
+    margin: auto;
+    display: flex;
+    max-width: 300px;
+    height: auto;
+    width: 90%;
+}
+  .intro-bio {
+    max-width: 600px;
+    padding-right: 40px;
+  }
+
+  .reel-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+    margin: 0 auto;
+    padding: 30 0;
+    background-image: linear-gradient(#8c8c8c, #fff);
+}
+
+  /* footer css */
+.footer {
+    background: #333;
+    margin-top: 0;
+    width: 100%;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-links li a {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+  }
+  
+  .footer-links {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 14px;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+  }
