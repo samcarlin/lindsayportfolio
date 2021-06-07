@@ -5,7 +5,7 @@
     font-family: "Open Sans", sans-serif;
     
     padding: 0;
-    padding-top: 40px;
+    /* padding-top: 40px; */
     margin: 0;
     min-width: 350px;
   }
@@ -55,15 +55,15 @@
   }
   
   .navbar ul {
-    z-index: 500;
-    position: fixed;
+    /* z-index: 500;
+    position: fixed; */
     top: 0;
     width: 100%;
     list-style-type: none;
     text-align: center;
     margin: 0;
     padding: 14px;
-    background-color: #333;
+    
   }
   
   .navbar {
