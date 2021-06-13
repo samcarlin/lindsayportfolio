@@ -15,6 +15,16 @@
     min-width: 350px;
     background-color: rgba(198,207,220, 0.20);
   }
+
+  a {
+    text-decoration: none;
+    color: #191f28;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color:#191f28;
+  }
   
   
   /*header css */
@@ -120,13 +130,27 @@
     font-size: 20px;
     line-height: 1.8;
   }
- 
+
+  .btn {
+    margin-top: 30px;
+  }
+
+  .about-btn {
+    border: 3px solid #191f28;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+  }
+
   .quote-container {
+    height:900px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 0 auto;
-    padding: 30 0;  
+    margin: 0px auto;
+    padding: 30px 0;  
 }
 
   .quote {
@@ -134,12 +158,29 @@
     font-style: italic;
     font-weight: 600;
     font-size: 1.5em;
+    padding: 100px 0;
+    line-height: 1.5;
   }
+
+  .author {
+    font-weight: 400;
+    font-size: 0.9em;
+  }
+
+  .reporting img {
+    padding-top: 30px;
+    margin: auto;
+    display: flex;
+    max-width: 600px;
+    height: auto;
+    width: 90%;
+}
+
+
   .reel-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    
     margin: 0 auto;
     padding: 30 0;
     
@@ -147,7 +188,7 @@
 
   /* footer css */
 .footer {
-    background: #333;
+    
     margin-top: 0;
     width: 100%;
   }
@@ -157,7 +198,7 @@
   }
   .footer-links li a {
     font-size: 22px;
-    color: white;
+    color: #8e9f93;
     text-align: center;
     padding: 14px 14px;
     text-decoration: none;
