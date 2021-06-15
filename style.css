@@ -29,7 +29,7 @@
   
   /*header css */
   .header {
-    background-image: linear-gradient(rgba(198,207,220, 0.20), rgba(198,207,220, 0.20)), url("/images/green_dress.jpeg");
+    background-image: linear-gradient(rgba(198,207,220, 0.20), rgba(198,207,220, 0.20)), url("images/green_dress.jpeg");
     background-size: cover;
     width: 100%;
     height: 1100px;
