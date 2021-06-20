@@ -296,3 +296,15 @@
     width: 90%;
 }
   
+.resume {
+  
+  max-width: 80%;
+  display: grid;
+  grid-template-columns: 40% auto;
+  grid-column-gap: 2%;
+  padding-left: 80px;
+  
+}
+
+
+
