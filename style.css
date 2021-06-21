@@ -31,7 +31,7 @@
   }
 
   h4 {
-    font-size: 20px;
+    font-size: 24px;
   }
   
   
@@ -144,7 +144,7 @@
   }
 
   .btn {
-    margin-top: 30px;
+    margin-top: 60px;
   }
 
   .about-btn {
@@ -268,7 +268,7 @@
   }
 
   .header-resume {
-    height:700px;
+    height:620px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -281,7 +281,7 @@
     font-style: italic;
     font-weight: 600;
     font-size: 1.5em;
-    padding: 80px 0;
+    padding: 100px 0;
     line-height: 1.5;
   }
 
@@ -291,24 +291,25 @@
   }
 
   .resume-img img{
-    padding-top: 30px;
-    padding-left: 80px;
+    /* padding-top: 30px;
+    padding-left: 60px; */
     margin: auto;
     display: flex;
     max-width: 800px;
     height: auto;
     width: 90%;
+    box-shadow: 10px 10px 5px grey;
 }
   
 .resume {
-  
   display: grid;
   grid-template-columns: 30rem 50rem;
   margin: 0 0 100px 140px;
   
 }
 
-.work p {
+.work p, 
+.volunteer p {
   font-size: 20px;
   line-height: 1.4;
 }
