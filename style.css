@@ -211,6 +211,7 @@
     
     margin-top: 0;
     width: 100%;
+    margin-bottom: 20px;
   }
   .footer-container {
     display: flex;
@@ -309,7 +310,8 @@
 }
 
 .work p, 
-.volunteer p {
+.volunteer p,
+.school p {
   font-size: 20px;
   line-height: 1.4;
 }
