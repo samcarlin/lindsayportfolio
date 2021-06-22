@@ -317,4 +317,55 @@
 }
 
 
+/*about me css */
+.about-container {
+  height:500px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 30px auto;
+  padding: 30px 0;  
+}
+
+
+.about-img img {
+  
+  margin: auto;
+  display: flex;
+  max-width: 900px;
+  height: auto;
+  width: 90%;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.about-me {
+  text-align: left;
+  padding: 0 300px;
+}
+
+.about-me p,
+.about-me ul {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.about-me h2 {
+  text-align: center;
+}
+
+.about-img2 img {
+  margin: auto;
+  display: flex;
+  max-width: 600px;
+  height: auto;
+  width: 90%;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.about-img2 {
+  margin-bottom: 50px;
+}
+
+
 
