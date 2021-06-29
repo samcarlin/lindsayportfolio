@@ -367,5 +367,25 @@
   margin-bottom: 50px;
 }
 
+/*contact css*/
+.contact-container {
+    /* height:500px; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 30px auto;
+    padding-bottom: 200px;
+      
+  }
+
+  .contact-img img {
+    width: 300px;
+  }
+
+  .contact {
+    padding-left: 80px;
+  }
+
+
 
 
