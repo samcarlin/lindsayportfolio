@@ -17,6 +17,9 @@
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:ital,wght@0,400;1,400;1,600;700&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/be4fba9088.js" crossorigin="anonymous"></script>
+    <script>function togglePopup() {
+            document.getElementById("popup-1").classList.toggle("active");
+        }</script>
 </head>
 
 <body>
@@ -44,7 +47,20 @@
                 aria-label="link to Lindsay's Twitter account">
                 <i class="fab fa-twitter-square fa-lg"></i>
             </a>
-            <div class="btn">Send me a message</div>
+
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup()">&times;</div>
+                    <h1>Nice Work!</h1>
+                    <p>This popup is about as simple as it gets. And if you're a coder, you can change the popup's style
+                        in the CSS file. This lets you modify the popup's font, color, size, and more.</p>
+                    <p> It may not be the prettiest popup in the world, but it'll do the job!</p>
+                    <p>Good luck!</p>
+                </div>
+            </div>
+
+            <button onclick="togglePopup()">Send me a message</button>
 
         </div>
     </div>
